@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sw2</title>
+	<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap" rel="stylesheet">
+		<style> 
+
+			body {
+				font-family: Playpen Sans;
+				background-image: url(bachoun.jpg);
+	            background-attachment: fixed;
+	            background-repeat:no-repeat;
+	            background-position: center center;
+	            background-size: cover;
+			}
+			.head {
+				background: #ffa522;
+				background: linear-gradient(180deg,#ffa522 0%, #ffcc33 60%);
+				background: -webkit-linear-gradient(180deg,#ffa522 0%, #ffcc33 60%);
+				background: -moz-linear-gradient(180deg,#ffa522 0%, #ffcc33 60%);
+				height: 45px;
+				color: white;
+			}
+			.body {
+				display: flex;
+				background: #ffa522;
+				background: linear-gradient(180deg,#ffa522 0%, #ffcc33 60%);
+				background: -webkit-linear-gradient(180deg,#ffa522 0%, #ffcc33 60%);
+				background: -moz-linear-gradient(180deg,#ffa522 0%, #ffcc33 60%);
+			}
+			.feet {
+				border: 2px solid #ffcc33;
+				background-color: #FFE4B5;
+			}
+			img {
+				border: 3px solid #ffcc33;
+				width: 150px;
+				height: 125px;
+			}
+			.product {
+				border: 2px solid #ffcc33;
+				width: 225px;
+				background-color: #FFE4B5;
+				margin: 2px;
+				justify-content:center;
+              	display:flex;
+              	text-align: center;
+             	flex-wrap: wrap;
+             	padding: 5px;
+			}
+			.button {
+				margin: 2px;
+				justify-content:center;
+              	display:flex;
+             	flex-wrap: wrap;
+			}
+			
+		</style>
+</head>
+<body>
+
+	<div class="head">
+		<header>
+			<h1>
+				Chips and Chocolates
+			</h1>
+		</header>
+	</div>
+
+	<div class="body">
+		<div class="product">
+			<h3>
+				Crispy Cookies
+			</h3>
+		<img src="https://divascancook.com/wp-content/uploads/2017/09/thin-crispy-chocolate-chip-cookies-1024x768.jpg" alt="cookie">
+			<p>
+				A crispy and sugary treat!
+			</p>
+			<p>
+				Price: Php 50.00
+			</p>
+			<div class="button">
+			<button>
+				Add to cart
+			</button>
+			</div>
+		</div>
+
+		</br>
+		<div class="product">
+			<h3>
+				Chewy Cookies
+			</h3>
+		<img src="https://www.allrecipes.com/thmb/Af-X2Lyw0Yn3CQ1xL07OKw6m-nc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7088317-56c4a78f7c4e432f895c17a91d416332.jpg
+
+" alt="cookie">
+			<p>
+				A sweet and chewy treat!
+			</p>
+			<p>
+				Price: Php 60.00
+			</p>
+			<div class="button">
+			<button>
+				Add to cart
+			</button>
+			</div>
+		</div>
+
+		</br>
+		<div class="product">
+			<h3>
+				Sugar Cookies
+			</h3>
+		<img src="https://www.cookingclassy.com/wp-content/uploads/2020/02/soft-sugar-cookies-5-500x500.jpg" alt="cookie">
+			<p>
+				A sweet treat with sprinkles.
+			</p>
+			<p>
+				Price: Php 65.00
+			</p>
+			<div class="button">
+			<button>
+				Add to cart
+			</button>
+			</div>
+		</div>
+
+		</br>
+		<div class="product">
+			<h3>
+				Chocolate Chips
+			</h3>
+		<img src="https://thebigmansworld.com/wp-content/uploads/2020/12/sugar-free-chocolate-chips4.jpg" alt="chocolate chips">
+			<p>
+				25 grams of chocolate chips
+			</p>
+			<p>
+				Price: Php 20.00
+			</p>
+			<div class="button">
+			<button>
+				Add to cart
+			</button>
+			</div>
+		</div>
+		
+		</br>
+		<div class="product">
+			<h3>
+				Hershey's
+			</h3>
+		<img src="https://images.freshop.com/23914/4a20b689b7a2ecd4c5ebb5e129a94f8b_large.png" alt="chocolate">
+			<p>
+				Hershey's chocolate bar
+			</p>
+			<p>
+				Price: Php 126.00
+			</p>
+			<div class="button">
+			<button>
+				Add to cart
+			</button>
+			</div>
+		</div>
+
+		</br>
+		<div class="product">
+			<h3>
+				Maltesers
+			</h3>
+		<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEBEQEhAQEhETExAVGBcYEhUZFxUYFxcWFhYSFRUYHSggGBsmHhYTITEhJSkrLi4xFx8zOD8sNygtLi4BCgoKDg0OGxAQGy0mICYyLTItLS01LS0tLTIvLS0vLS0tLS0tLS0tLS8tMS8tLS0uLS8tLy0tLS0tKy0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAwEBAQEBAAAAAAAAAAAABQYHBAMCAQj/xABNEAABAwIDBAYEBwsLBQEAAAABAAIDBBEFEiExQVFhBgcTInGBMpGhwRQkQlKCsdEjM1NicnOSorLC8BYlRFRjk6PS0+HxF0N0lOMV/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAMEAgUGAQf/xAA9EQACAQICBggDBQYHAAAAAAAAAQIDEQQhBRIxQVFxImGBkaGx0fATMsEUFTNCUgYkQ2JysiM0U4KS0uH/2gAMAwEAAhEDEQA/ANxREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBEX4UBV8Q6dUcMj4XyP7RhLXARONiN19i5D1lUW4zHwYPe4LNenLLYjV/nL+vvcBx/52mFYFRliZptZHV4fQmFnShNuWaT2rer/pN5wPpXTVRLYpLPHyH91/iBscPAlT11/NVO5wlBYSH3FjzWj12O11NDG58pIIAvkYT5ktJKmp121do1uP0XCjUSpz27ne/gn9O009FhsXWLWPl7MSNbe9jmaQeRBjFvau09MsQ3Tt9Uf2L2VeMdqZFR0RWrR1oSj3v0NlRY63pfiJIAmZc/iR/Yprt8YMLpu3pmgC9nNbc+piRrqWxMxr6LnQS+JOKvszefcjSEWGHp7iQdaR7Mvzh2dh4tyrt/lZiX4YeqP/KjxEVtTM6WiKtW+rOOXW/+psyLG2dMMS/DM82xfYvv+W2JfOjP0I1j9qhwZJ9xYnjHvfobCiyCHp3iB/AHxa33FdLenteP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" alt="chocolate">
+			<p>
+				Maltesers chocolates
+			</p>
+			<p>
+				Price: Php 280.00
+			</p>
+			<div class="button">
+			<button>
+				Add to cart
+			</button>
+			</div>
+		</div>
+
+	</div>
+	
+	</br>
+	<div class="feet">
+		<footer>
+			diabetes
+		</footer>
+	</div>
+
+</body>
+</html>
